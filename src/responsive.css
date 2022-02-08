@@ -1,0 +1,37 @@
+@media(max-width: 768px)
+{
+    .header
+    {
+        display: none!important;
+    }
+    .background 
+    {
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 0;
+    }
+    .background-texts 
+    {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+    .background-texts h1 
+    {
+        font-size: 3rem;
+        width: 100%;
+    }
+}
+@media(min-height: 740px)
+{
+    .background 
+    {
+        height: 60vh;
+    }
+    .background video 
+    {
+        height: 60%;
+    }
+}
+

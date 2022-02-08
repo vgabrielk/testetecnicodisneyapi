@@ -1,0 +1,29 @@
+.search-box 
+{
+    display: flex;
+    margin: 1rem 2rem; 
+    align-items: center;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.493);
+    padding: 1rem;
+    border-radius: 50px;
+    width: 60%
+}
+.search-container
+{
+    display: flex;
+    justify-content: center;
+}
+.search-box #search-person 
+{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 100%;
+    color: #e6f3ff;
+  
+}
+#search-person::-webkit-input-placeholder
+{
+    color: #fefefe;
+    font-weight: 700;
+}

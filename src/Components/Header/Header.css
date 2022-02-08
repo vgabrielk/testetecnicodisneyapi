@@ -1,0 +1,84 @@
+.header 
+{
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+    z-index: 10;
+    filter: invert(100%);
+    background-color: #fafafa7a;
+}
+
+.header-nav 
+{
+    margin: 0 5rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo 
+{
+    width: 80px;
+}
+ ul 
+{
+    display: flex;
+  margin: 0;
+  padding: 0;
+}
+li 
+{
+    list-style: none;
+    margin-left: .8rem;
+}
+a 
+{
+    color: rgb(0, 0, 0);
+    z-index: 10;
+}
+/* mobile */
+@media(max-width: 768px)
+{
+    .menu, .fa-close {
+        display: block;
+        position: fixed;
+        right: 1rem;
+        top: 1rem;
+    }
+    .menu button 
+    {
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+    .menu-opened
+    {
+        background-color: #01147b;
+        height: 100vh;
+        width: 70%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    ul 
+    {
+        flex-direction: column;
+    }
+
+    @keyframes fadeMenu {
+        from 
+        {
+            opacity: 0;
+        }
+        to 
+        {
+            opacity: 1;
+        }
+}
+}

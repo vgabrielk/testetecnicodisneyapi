@@ -1,0 +1,122 @@
+.card-details 
+{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #cccccce0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    position: fixed;
+    border-radius: 12px;
+    display: flex;
+    border: none;
+    outline: none;
+    justify-content: center;
+    animation: fade .8s ease;
+}
+
+.card-close 
+{
+    position: fixed;
+    top: -1rem;
+    left: -1rem;
+    font-size: 3rem;
+    background-color: #206392;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+    z-index: 9123901239;
+    box-shadow: -10px 10px 12px rgba(0, 0, 0, 0.596);
+}
+.card-details__data
+{
+    margin-top: 4rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    overflow-y: scroll;
+
+}
+.card-details__data::-webkit-scrollbar 
+{
+    width: 0px;
+    background-color: #ffffff ;
+    border-radius: 12px;
+}
+.card-details__data::before 
+{
+    content: '';
+    position: absolute;
+    height: 10vh;
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: #206392;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.card-details__data h4
+{
+    margin-bottom: .4rem;
+    margin-top: 1rem;
+    color: #206392;
+}
+.card-details__data p 
+{
+    color: #ffffff;
+    font-size: .8rem;
+    background-color: #000000;
+    margin: .2rem 0;
+    padding: 10px;
+    border-radius: 50px;
+    transform: translateX(-5px);
+}
+.card-details__data h1 
+{
+    margin: 0;
+    color: #797979;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+}
+.card-details__data span 
+{
+    color: red;
+}
+
+
+
+@keyframes upAndDown {
+    from 
+    {
+        transform: translateY(-20px);
+    }
+    to 
+    {
+        transform: translateY(0);
+    }
+}
+@keyframes fade {
+    from 
+    {
+        opacity: 0;
+    }
+    to 
+    {
+        opacity: 1;
+    }
+}

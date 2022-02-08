@@ -1,0 +1,19 @@
+
+a 
+{
+    text-decoration: none;
+}
+
+.menu
+{
+    display: none;
+    z-index: 9999;
+}
+
+
+  i 
+  {
+      color: #e6f3ff;
+      font-size: 2rem;
+  }
+
