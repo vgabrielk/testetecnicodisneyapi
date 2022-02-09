@@ -30,6 +30,7 @@ align-items: center;
     flex-direction: column;
     text-align: end;
     font-size: 2rem;
+    width: 100%;
 }
 .background-texts h1 
 {
@@ -79,3 +80,40 @@ b
     color: black;
     
   }
+  .img-top 
+  {
+      position: fixed;
+      top: 1rem;
+      left: 2.5rem;
+      z-index: 190;
+      width: 100px;
+      padding: 1rem;
+      border-radius: 18px;
+  }
+
+  @media(max-width: 768px)
+{
+    .background 
+    {
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 0;
+    }
+    .background-texts 
+    {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 5rem 0
+    }
+    .background-texts h1 
+    {
+        font-size: 3rem;
+        width: 100%;
+    }
+    .img-top 
+    {
+        display: none;
+    }
+
+}

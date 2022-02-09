@@ -1,19 +1,5 @@
-
-a 
+i 
 {
-    text-decoration: none;
+    font-size: 2rem;
+    color: #fff;
 }
-
-.menu
-{
-    display: none;
-    z-index: 9999;
-}
-
-
-  i 
-  {
-      color: #e6f3ff;
-      font-size: 2rem;
-  }
-

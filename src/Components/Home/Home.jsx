@@ -1,9 +1,14 @@
 import './Home.css'
 
-const Home = ({Bg, toPersons}) => {
+const Home = ({Bg}) => {
+
+  const toPersons = () => {
+    window.scrollTo(0, 500)
+  }
     return ( 
         <>
          <div className="background">
+         <img className='img-top' src="https://www.truckpag.com.br/img/logo-fundo-escuro.png" alt="" />
           <video src={Bg} autoPlay muted loop>
           </video>
           <div className="background-texts">

@@ -22,12 +22,14 @@
     align-items: center;
     transition: all .3s ease;
     margin: .2rem;
+    transform: scale(.976)
     
 }
 .card:hover 
 {
     background: rgba(255, 255, 255, 0.582);
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transform: scale(1)
 }
 
 .card-image 

@@ -1,0 +1,33 @@
+.footer 
+{
+    background-color: #01147b;
+    height: auto;
+    width: 100%;
+}
+.footer-content 
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4rem 0; 
+}
+.footer-content img 
+{
+    width:80px;
+    
+}
+.footer-content span 
+{
+    color: #efefef;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-content a 
+{
+    color: rgb(173, 173, 173);
+    font-style: italic;
+}
