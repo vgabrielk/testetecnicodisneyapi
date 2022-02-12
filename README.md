@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+<div align="center" id="top"> 
+  <img width='180px' src="https://www.truckpag.com.br/img/logo-fundo-escuro.png" alt="Disneyteste" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  &#xa0;
 
-## Available Scripts
+  <!-- <a href="https://disneyteste.netlify.app">Demo</a> -->
+</div>
 
-In the project directory, you can run:
+<h1 align="center">Teste técnico truckpag</h1>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- Status -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- <h4 align="center"> 
+	🚧  Disneyteste 🚀 Under construction...  🚧
+</h4> 
 
-### `npm test`
+<hr> -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+<div align="center" id="top"> 
+  <img width='480px' src="https://portfoliovfelix.netlify.app/static/media/disney.e6bca77021ec307309b4.png" alt="Disneyteste" />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  &#xa0;
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  <!-- <a href="https://disneyteste.netlify.app">Demo</a> -->
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## :dart: Sobre ##
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Esse projeto foi desenvolvido para realização de um teste técnico na empresa TruckPag, onde tive que desenvolver uma interface listando os personagens da disney e um campo de busca para filtra-los!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## :rocket: Tecnologias ##
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Tecnologias utilizadas no projeto:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React
+- Css
+- React Hooks
+- Api rest
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## :white_check_mark: Requisitos ##
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Antes de inicializar você deve ter o [Git](https://git-scm.com) e [Node](https://nodejs.org/en/) instalado.
 
-### Code Splitting
+## :checkered_flag: Starting ##
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+# Clone este projeto
+$ git clone https://github.com/vgabrielk/disneyteste
 
-### Analyzing the Bundle Size
+# Access
+$ cd disneyteste
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Install dependencies
+$ npm install
 
-### Making a Progressive Web App
+# Run the project
+$ npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# O servidor irá inicializar no <http://localhost:3000>
+```
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="#top">Voltar ao topo </a>

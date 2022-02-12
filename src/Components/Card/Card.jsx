@@ -13,12 +13,7 @@ const Card = ({ person, searchTerm }) => {
                         if(val.searchTerm === ""){
                             return val;
                         }
-                        return(
-                            
-                            val.name.toLowerCase().includes(searchTerm.toLowerCase()) 
-
-                        ) 
-                                
+                        return val.name.toLowerCase().includes(searchTerm.toLowerCase()) 
                     }).map(disney => (
                         <div className='card' key={disney._id}>
                             <p>{disney.name}</p>

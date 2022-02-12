@@ -24,7 +24,7 @@ function App() {
     <>
       <Home Bg={Bg}  />
       <SearchPerson setSearchTerm={setSearchTerm} />
-      <Card person={person} setPerson={setPerson} searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+      <Card person={person} setPerson={setPerson}  searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
       <Footer/>
     </>
   );
